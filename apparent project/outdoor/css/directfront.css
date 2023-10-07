@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.left{
+    display: block;
+    width:200px;
+    height: 100%;
+    background-color: rgb(228, 229, 231);
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.left .logo{
+    width: 100%;
+    height: 25%;
+    
+}
+.logo .image{
+    width: 65%;
+    height: 65%;
+    margin-left: 30PX;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 5px;
+    box-shadow: 1px 1px 80px black;
+}
+.logo .title{
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+
+}
+.title h2{
+    font-size: 22px;
+    text-align: center;
+    color: red;
+    margin-bottom: 45px;
+
+}
+
+.left .link{
+    width: 100%;
+    height: 75%;
+    
+    
+}
+.link .list{
+    height: 100%;
+    width: 100%;
+ 
+    
+}
+.list ul{
+    list-style-type: none;
+    background-color: rgb(247, 234, 221);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin-top: 10px 0px;
+    position: relative;
+}
+.list ul li{
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    display: flex;
+}
+ .list ul li a{
+    width: 100%;
+    background-color: rgb(227, 233, 233);
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 2px 20px black;
+    
+ }
+ .list ul li a:hover{
+    background-color: rgb(77, 77, 77);
+ }
+ #logout{
+    position: absolute;
+    bottom:0%;
+    margin-bottom: 20px;
+ }
+
+.right{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.right .top{
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(228, 229, 231);
+    
+}
+.top h1{
+    margin: 0px;
+    padding: 5px;
+    width: 95%;
+    text-align: center;
+    color: red;
+    font-size: 45px;
+    height: 80%;
+    box-shadow: -3px -2px 30px black;
+    text-shadow: 2px 2px 4px black;
+
+}
+.right .bottom{
+    width: 100%;
+    height: 89%;
+    margin: 0%;
+    padding: 0%;
+    background-color:burlywood ;
+    display: flexbox;
+
+}
+.bottom iframe{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+    
+
+}
+.list ul .diss{
+    display: block;
+    width: 100%;
+}
+.list ul .diss .d{
+    width: 100%;
+    background-color: rgb(227, 233, 233);
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 2px 20px black;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.list ul .diss .d:hover{
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+
+.list ul .diss .disdiv{
+    display: flex;
+    width: 100%;
+    display: none;
+    
+
+}
+ .list ul .diss:hover .disdiv{
+    display: block;
+
+}
+
+.list ul .diss ul li a {
+     width: 100%;
+    background-color: rgb(216, 233, 233);
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: none;
+
+}
+.list ul .diss ul li a:hover{
+    background-color: rgb(70, 63, 63);
+}

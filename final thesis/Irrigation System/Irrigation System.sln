@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irrigation System", "Irrigation System\Irrigation System.csproj", "{F93B792F-2B54-4BCB-BEE4-317464A4CBF7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AdvancedPlantIrrigationSetup", "AdvancedPlantIrrigationSetup\AdvancedPlantIrrigationSetup.vdproj", "{65A7FCE0-136D-424F-86FD-38DD64A0042E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93B792F-2B54-4BCB-BEE4-317464A4CBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93B792F-2B54-4BCB-BEE4-317464A4CBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93B792F-2B54-4BCB-BEE4-317464A4CBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93B792F-2B54-4BCB-BEE4-317464A4CBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A7FCE0-136D-424F-86FD-38DD64A0042E}.Debug|Any CPU.ActiveCfg = Debug
+		{65A7FCE0-136D-424F-86FD-38DD64A0042E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA06978F-4659-4BF1-80F1-4189383B73A3}
+	EndGlobalSection
+EndGlobal

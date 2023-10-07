@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+}
+.cotainer{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+
+}
+.err{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    height: 40px;
+
+}
+.err h3{
+    width: 100%;
+    text-align: right;
+    color: red;
+    padding: 7px;
+    font-size: 20px;
+    height: 100%;
+    margin: 0px;
+
+}
+.err h3 span{
+    color:green;
+}
+.top{
+    width:100%;
+    height: 50px;
+    margin: 0%;
+    padding: 0%;
+margin-bottom: 10px; 
+ box-shadow:1px 1px 10px black ; 
+}
+.top form{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+form ol{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin:0px ;
+   
+}
+form ol li{
+    padding: 5px;
+    margin: 5px;
+    width: 16%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     background-color:rgb(242, 241, 241);
+}
+form ol li label{
+font-size: 18px;
+font-weight: bold;
+}
+.no{
+    width: 5%; 
+}
+.idd{
+    width: 10%;
+}
+.img{
+    width: 17%;
+}
+.top form input[type="number"]{
+    width: 25%;
+    padding: 10px;
+    font-size:16px;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    
+}
+.top form input[type="submit"]{
+     width: 15%;
+    padding: 10px;
+    font-size:18px;
+    outline: none;
+    background-color:black ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.top form input[type="submit"]:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.bot{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.bot form{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.bot form .form{
+    display: flex;
+
+}
+.bot form .form ul,.bot form .form ol{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin:0px ;
+}
+
+.bot form .form ul li,.bot form .form ol li{
+    padding: 5px;
+    width: 16%;
+    margin: 5px;
+}
+.bot form .form ul .nu{
+    width: 5%;
+}
+.bot form .form ul .idd{
+    width: 10%;
+}
+.bot form .form ul .nu input{
+    border: none;
+}
+.bot form .form ul li{
+ margin: 5px;
+}
+.form ol li label,.form ul li label{
+    width: 30%;
+    padding: 2px;
+    font-size: 17px;
+    
+}
+
+.form ol li input,.form ul li input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.form ol li input[type="text"],.form ol li input[type="date"],.form ul li input[type="text"],.form ul li input[type="date"]{
+    border: 1px solid black;
+    
+}
+ .bot form .form ul .img{
+    width: 17%;
+    padding:0px;
+    margin-bottom: 5px;
+    display: flex;
+    height: 90%;
+}
+.image{
+    width:50%;
+    height: 90px;
+}
+.selectedBanner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.img span{
+    width: 7%;
+    display: flex;
+    
+}
+.choos{
+    width: 36%;
+    display: flex;
+
+}
+.choos p{
+    width: 100%;
+    display: flex;
+}
+.choos p input{
+    width: 100%;
+    display: flex;
+    border: none;
+}
+.file{
+    border: none;
+    border-bottom: none;
+}
+.subm{
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    margin: 30px;
+}
+.subm input{
+    width: 20%;
+    margin-left: 30%;
+    margin-top: 5px;
+    height: 70%;
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+

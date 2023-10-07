@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+.pic{
+    display: flex;
+
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.pics{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.pics p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.pics img{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: block; 
+    box-shadow: 1px 1px 40px black;
+}
+h1{
+    margin: 0%;
+    padding:10px;
+    text-align: center;
+    color: red;
+    height: 7%;
+box-shadow: 1px 1px 40px black;
+}
+.box .err{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 6%;
+    overflow: hidden;
+}
+.err p{
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    padding-left: 15px;
+    margin: 0px;
+   color: red;
+    font-size: 19px;
+
+}
+.err p span{
+    color: green;
+    width: 100%;
+    display: flex;
+    height: 100%;
+
+}
+.form{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+form{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+.textform{
+    width: 100%;
+    height: 79%;
+    padding: 0px;
+    margin: 0px;
+}
+.textform ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+.textform ul li{
+    padding: 5px;
+    margin: 15px;
+}
+.textform ul li span{
+    font-size: 19px;
+    display: flex;
+    padding: 5px;
+    color: black;
+   
+}
+.textform ul li input{
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+}
+.sub{
+    width: 100%;
+    height: 25%;
+    box-shadow: 1px 1px 30px black;
+    padding-top: 10px;
+}
+.sub input{
+    width: 12%;
+    height: 30%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+   
+}
+.sub input:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+.sub input[type="search"]{
+    width: 40%;
+    height: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.sub input[type="search"]:hover{
+    background-color: rgb(255, 255, 255);
+    cursor:text;
+    color: rgb(0, 0, 0);
+
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 5px;
+    float: right;
+    background-color: red;
+}
+

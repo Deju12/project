@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.container form{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+form .top{
+    width: 100%;
+    height: 4%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.top .search{
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    
+}
+.top input{
+    margin-top: 25px;
+    padding: 0px;
+    height: 50%;
+    max-width: 100%;
+}
+.top input[type="search"]{
+    width: 75%;
+    margin-left: 11px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px 5px 5px 10px;
+    background: transparent;
+    border-radius: 10px;
+}
+.top input[type="submit"]{
+    width:25%;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+.top input[type="submit"]:hover{
+    background-color: red;
+}
+.message{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.message p{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    font-size: 25px;
+    color: red;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.center{
+    width: 100%;
+    height: 96%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 2px 40px black;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.center .centop{
+    width: 100%;
+    height: 5%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+   
+}
+.centop .image{
+    width: 20%;
+    margin-left: 20px;
+    padding: 0px;
+}
+.image span{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    padding: 5px;
+    
+}
+#selectedBanner{
+    width: 100%;
+    height: 85%;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.centform{
+    width:80%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.centform .centerlist{
+    width: 80%;
+    margin-top: 30px;
+}
+.centerlist ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.centerlist ul li{
+    width: 80%;
+    margin: 10px 5px 10px 0px;
+    display: flex;
+}
+.centerlist ul li label{
+    font-size: 20px;
+    width: 140px;
+    margin:15px 0px 0px 15px;
+    margin-right: 0px;
+    text-align: left;
+    
+}
+.centerlist ul li input{
+    width: 50%;
+    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.centerlist ul li input[type="file"]{
+    border-bottom: none;
+}
+ 
+.ceneterform{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 95%;
+}
+.ceneterform .centertop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    padding: 0%;
+    margin-top: 10px;
+}
+
+
+.ceneterform .centertop ul{
+    width: 70%;
+    padding: 0px;
+    margin: 0%;
+    list-style-type: none;
+    
+}
+.ceneterform .centertop ul li,ol li{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+}
+.ceneterform .centertop ul li label,ol li label{
+    font-size: 22px;
+    width: 250px;
+    margin:15px 0px 0px 0px;
+    margin-right: 0px;
+    text-align: left;
+    padding-left: 5px;
+}
+.ceneterform .centertop ul li input,ol li input{
+    width: 50%;
+    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.ceneterform .centertop ul li input,ol li textarea{
+    width: 50%;
+    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+
+}
+.ceneterform .centertop ol li input[type="radio"]{
+    width: 18px;
+    height: 18px;   
+}
+#radio{
+    display: block;
+}
+#radio .oo{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#radio label{
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.centerbott{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 8%;
+}
+.centerbott h2{
+    margin: 0%;
+    padding:0px 10px 10px 15px;
+    font-size: 25px;
+}
+.centerbott ul{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0%;
+    list-style-type: none;
+    overflow: hidden;
+}
+.centerbott ul li{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+}
+.centerbott ul li label{
+    font-size: 18px;
+    width: 290px;
+    margin:15px 0px 0px 0px;
+    margin-right: 0px;
+    text-align: left;
+}
+.centerbott ul li input{
+     width: 30%;
+    margin-left: 0px;
+    font-size: 17px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.bottom{
+    height: 20%;
+    width: 100%;
+    margin: 0px;
+    padding: 0PX;
+}
+.bottom .sene{
+    width: 80%;
+    padding: 60px;
+    margin-left: 20%;
+}
+.bottom .sene input{
+    width: 20%;
+    padding: 8px;
+    background: black;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.bottom .sene input:hover{
+    background-color: red;
+}
+.logout a{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.logout a:hover{
+    color: red;
+}

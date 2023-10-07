@@ -1,0 +1,15 @@
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\bin\Debug\Irrigation System.exe.config
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\bin\Debug\Irrigation System.exe
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\bin\Debug\Irrigation System.pdb
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.csproj.AssemblyReference.cache
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation_System.Form1.resources
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation_System.Properties.Resources.resources
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.csproj.GenerateResource.cache
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.csproj.CoreCompileInputs.cache
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.exe
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.pdb
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\bin\Debug\CircularProgressBar.dll
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\bin\Debug\WinFormAnimation.dll
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\bin\Debug\CircularProgressBar.xml
+C:\Users\Deju\Desktop\Final Project\Irrigation System\Irrigation System\obj\Debug\Irrigation System.csproj.CopyComplete

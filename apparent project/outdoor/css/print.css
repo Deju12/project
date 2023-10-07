@@ -1,0 +1,12 @@
+@page{
+    size: A4;
+    margin: 0px;
+    
+}
+.top{
+    display: none;
+    visibility: none;
+}
+body{
+    background-color: white;
+}
